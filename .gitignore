@@ -1,23 +1,24 @@
-# Python artifacts
-__pycache__/
-*.py[cod]
-
-# Virtual environment
+# Python env
 venv/
 
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
-# Data folders
+# Data
 data/raw/
-data/interim/
 data/processed/
 
-# Model artifacts
+# Models
 models/
 
-# OS / IDE files
-.DS_Store
-Thumbs.db
+# Dashboard artifacts
+visualization/
+
+# Database URL and PASSWORD
+.env
+
+# Caches & checkpoints
+__pycache__/
+.ipynb_checkpoints/
+
+# Editor / OS
 .vscode/
-.idea/
+*.py[cod]
+.DS_Store
