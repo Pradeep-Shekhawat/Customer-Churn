@@ -111,6 +111,3 @@ A companion Power BI dashboard connects to the scored data PostgreSQL and prov
 ## License
 
 This project is released under the [MIT License]
-
-```
-```
